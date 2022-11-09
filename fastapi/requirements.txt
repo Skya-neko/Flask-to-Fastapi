@@ -1,2 +1,4 @@
 fastapi
 uvicorn  # ASGI server for fastapi
+psycopg2  # psql api
+pandas
