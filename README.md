@@ -21,13 +21,16 @@ docker
 ## Build Environment
 ### PostgreSQL setting  
 
-create table
+create table  
+
 ![](img/DDL_createTable.png)  
 
-see table schema
+see table schema  
+
 ![](img/personTableSchema.png)  
 
-insert data
+insert data  
+
 ![](img/InsertInto.png)  
 
 
