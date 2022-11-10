@@ -1,15 +1,27 @@
+# Flask to Fastapi
+Aimd to change the backend framework project from Flask to Fastapi.
 
-# Build Environment
-## PostgreSQL setting
-### create table
+## packages & tools
+flask
+fastapi
+uvicorn
+postgreSQL
+psycopg2
+pandas
+docker
+
+
+## Build Environment
+### PostgreSQL setting
+create table
 ![](img/DDL_createTable.png)
-### see table schema
+see table schema
 ![](img/personTableSchema.png)
-### insert data
+insert data
 ![](img/InsertInto.png)
 
 
-## Docker command
+### Docker command
 Use following command in ./fastapi
 
 Build
@@ -20,9 +32,10 @@ Run
 
 ```docekr run -p 8080:8080 fastapi```
 
-# Project result
+## Project Result
 
-## API docs
+### API docs
 connect to `http://127.0.0.1:8080/docs` and see API docs.
 
-## Response
+### Response
+![](img/getDataFromPsql.png)
