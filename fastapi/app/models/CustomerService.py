@@ -1,26 +1,18 @@
 import pandas as pd
 import psycopg2
-con = psycopg2.connect(
-    host="192.168.0.103",
-    port="5432",
-    database='FlaskToFastapi',
-    user='postgres',
-    password='L+10221022',
-)
+
 
 class CustomerService():
-    _instance = None
 
-    def __init__(self, con):
-        self.con = con
-        if self._instance is None:
-            self._instance = self
-
-    @staticmethod
-    def getInstance():
-        if CustomerService._instance is None:
-           CustomerService(con)
-        return CustomerService._instance
+    def __init__(self):
+        self.con = psycopg2.connect(
+            # host="192.168.0.103",
+            host="localhost",
+            port="5432",
+            database='FlaskToFastapi',
+            user='postgres',
+            password='L+10221022',
+        )
 
     def getCustomers(self):
         query = """

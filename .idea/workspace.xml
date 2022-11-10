@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58456ec4-5358-475e-babe-6f42e1f74b8a" name="Changes" comment="connect to psql and return to front end">
-      <change afterPath="$PROJECT_DIR$/fastapi/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi/app/models/customer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastapi/app/routers/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app/routers/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668006528201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connect to psql and return to front end">
+      <created>1668085885169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668085885170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
