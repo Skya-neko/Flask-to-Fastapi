@@ -6,8 +6,8 @@ class CustomerService():
 
     def __init__(self):
         self.con = psycopg2.connect(
-            # host="192.168.0.103",
-            host="localhost",
+            host="192.168.0.103",
+            # host="localhost",
             port="5432",
             database='FlaskToFastapi',
             user='postgres',

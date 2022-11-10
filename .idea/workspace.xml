@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58456ec4-5358-475e-babe-6f42e1f74b8a" name="Changes" comment="connect to psql and return to front end">
+    <list default="true" id="58456ec4-5358-475e-babe-6f42e1f74b8a" name="Changes" comment="change example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi/app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi/app/routers/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app/routers/example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +47,17 @@
       <recent name="C:\Users\daby6\OneDrive\桌面\面試資料\詩嫚特\flask_api_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.CustomerService">
     <configuration name="CustomerService" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_api_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastapi/app/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\daby6\OneDrive\桌面\面試資料\詩嫚特\flask_api_test\fastapi\app\models\CustomerService.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CustomerService" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.CustomerService" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.fastapiDEMO" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668085885170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change example">
+      <created>1668086550614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668086550614</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +216,7 @@
     <MESSAGE value="fastapi run first time." />
     <MESSAGE value="Add configParser" />
     <MESSAGE value="connect to psql and return to front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect to psql and return to front end" />
+    <MESSAGE value="change example" />
+    <option name="LAST_COMMIT_MESSAGE" value="change example" />
   </component>
 </project>
