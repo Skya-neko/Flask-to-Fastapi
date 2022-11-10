@@ -3,22 +3,33 @@ Aimd to change the backend framework project from Flask to Fastapi.
 
 ## packages & tools
 flask
+
 fastapi
+
 uvicorn
+
 postgreSQL
+
 psycopg2
+
 pandas
+
 docker
 
 
+
 ## Build Environment
-### PostgreSQL setting
-create table  
-![](img/DDL_createTable.png)
-see table schema  
-![](img/personTableSchema.png)
-insert data  
-![](img/InsertInto.png)
+### PostgreSQL setting  
+
+create table
+![](img/DDL_createTable.png)  
+
+see table schema
+![](img/personTableSchema.png)  
+
+insert data
+![](img/InsertInto.png)  
+
 
 
 ### Docker command
