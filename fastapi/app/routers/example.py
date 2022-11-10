@@ -1,15 +1,18 @@
 from fastapi import APIRouter
-from ..models.customer import *
-router = APIRouter()
+from ..models.CustomerService import *
 
+router = APIRouter()
+service = CustomerService.getInstance();
 
 @router.get('/endpoint1')
 def getAdsData():
-    return 'welcome to test'
+    return 'Welcome to Test'
+
+@router.get('/customers')
+def getCustomer(id):
+    return service.getCustomers()
 
 @router.get('/customer/{id}')
-def getPersonalData():
-    page = customer(con)
-    jsonData = page.select_info()
-    return jsonData
+def getPersonalData(id):
+    return service.getCustomerById(id)
 
