@@ -1,4 +1,4 @@
 fastapi
 uvicorn  # ASGI server for fastapi
 # psycopg2  # psql api
-psycopg2-binary
+psycopg2-binary  # for building docker

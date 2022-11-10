@@ -16,14 +16,14 @@ class CustomerService():
 
     def getCustomers(self):
         query = """
-            SELECT * FROM customer
+        SELECT * FROM customer
         """
         df = pd.read_sql(query, self.con)
         return df.to_json(orient="split")
 
     def getCustomerById(self, id):
         query = f"""
-                    SELECT * FROM customer where id = {id}
-                """
+        SELECT * FROM customer where id = {id}
+        """
         df = pd.read_sql(query, self.con)
         return df.to_json(orient="split")

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58456ec4-5358-475e-babe-6f42e1f74b8a" name="Changes" comment="change example">
+    <list default="true" id="58456ec4-5358-475e-babe-6f42e1f74b8a" name="Changes" comment="update app.ini">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi/app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/app/models/CustomerService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668086550614</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update app.ini">
+      <created>1668087374986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668087374986</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +225,7 @@
     <MESSAGE value="Add configParser" />
     <MESSAGE value="connect to psql and return to front end" />
     <MESSAGE value="change example" />
-    <option name="LAST_COMMIT_MESSAGE" value="change example" />
+    <MESSAGE value="update app.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="update app.ini" />
   </component>
 </project>
